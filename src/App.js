@@ -30,12 +30,10 @@ export default class App extends Component {
               </div>
             }}
           />
-          <Route path={'/'}>
-            
+          <Route path={'/'}> 
             <Link to={'/games'} className='links'>
               <Image className='logo' src={waterVapor} alt="Our WV logo"/>
               <h1 className='enter'>Enter</h1>
-              
             </Link>
           </Route>
         </Switch>

@@ -134,7 +134,7 @@ export default class GameDetail extends Component {
             width: '640',
             playerVars: {
               // https://developers.google.com/youtube/player_parameters
-              autoplay: 1,
+              autoplay: 0,
             },
           };
       
@@ -205,7 +205,7 @@ export default class GameDetail extends Component {
 
 
         <Grid>
-            <Grid.Column width={5}>
+            <Grid.Column width={4}>
 
             </Grid.Column>
             <Grid.Column width={7}>
